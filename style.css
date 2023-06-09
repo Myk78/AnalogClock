@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#clockcontainer{
+    border: 2px solid black;
+    background: url(images.png);
+    width: 60vw;
+    height: 50vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
