@@ -3,11 +3,57 @@
     padding: 0;
 }
 #clockcontainer{
+    position: relative;
     border: 2px solid black;
     background: url(images.png);
-    width: 60vw;
-    height: 50vw;
+    /* width: 60vw;
+    height: 50vw; */
+    width: 660px;
+    height: 550px;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: auto;
+}
+#hour,#mins,#sec,#circle{
+    position: absolute;
+    border-radius: 10px;
+    background-color: black;
+}
+#circle{
+    width: 4%;
+    height: 5%;
+    top: 45%;
+    left: 48.1%;
+    opacity: 0.8;
+}
+
+#hour{
+   width: 1.2%;
+   height: 23%;
+   top: 25.5%;
+   left: 49.53%;
+   transform-origin: bottom;
+   /* display: none; */
+
+ }
+
+#mins{
+    width: 1%;
+    height: 31%;
+    top: 17%;
+    left: 49.6%;
+    opacity: 0.7;
+    transform-origin: bottom;
+    /* display: none; */
+
+}
+#sec{
+    width: 0.8%;
+    height: 39%;
+    top: 9%;
+    left: 49.7%;
+    opacity: 0.5;
+    transform-origin: bottom;
+    /* display: none; */
+    
 }
